@@ -382,6 +382,13 @@ describe("functions", function() {
                     return length;
                 }
             }
+
+            //method 2 using arrow function
+            //function myFunction() {
+            //   const length = arguments.length;
+            //
+            //  return () => length;
+            // }
             ////////////////////////////////////////////////////////////////////
 
             // Look at that strange code: myFunction()().
@@ -423,7 +430,7 @@ describe("functions", function() {
             // Can you implement a function that takes a function as an argument,
             // executes it and returns the result?
             // ✏️ ADD CODE HERE ✏️
-
+            passMeAFunction(function () {});
             ////////////////////////////////////////////////////////////////////
 
             if (hasBeenCalled === false) {
