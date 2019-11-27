@@ -158,7 +158,9 @@ describe("numbers", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
             // You will also need to do some calculations here.
-
+            function getRandomNumberBetween10And10Point1(number) {
+                return Math.random(number) * 0.1 + 10;
+            }
             ////////////////////////////////////////////////////////////////////////
 
             const previousNumbers = [];
