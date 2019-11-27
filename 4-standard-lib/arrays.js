@@ -484,7 +484,9 @@ describe("arrays", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function createArray(...args) {
+                return new Array(...args);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(createArray(0) instanceof Array).to.equal(true);
