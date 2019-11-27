@@ -84,7 +84,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function removeFirstItem(item) {
+                return array.shift(item);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(removeFirstItem()).to.equal("a");
