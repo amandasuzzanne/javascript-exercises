@@ -368,7 +368,7 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+           
             ////////////////////////////////////////////////////////////////////
 
             expect(allGreaterThan(3)).to.equal(false);
