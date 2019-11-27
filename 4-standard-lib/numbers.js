@@ -121,7 +121,9 @@ describe("numbers", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB! ✏️
-
+            function getBiggestNumber(number) {
+                return Math.max(...number);
+            }
             ////////////////////////////////////////////////////////////////////////
 
             expect(getBiggestNumber([1])).to.equal(1);
