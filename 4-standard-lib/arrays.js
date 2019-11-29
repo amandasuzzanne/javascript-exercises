@@ -460,7 +460,10 @@ describe("arrays", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function sumUp(number) {
+                const add = (a, b) => a + b
+                return number.reduce(add);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(sumUp([1])).to.equal(1);
