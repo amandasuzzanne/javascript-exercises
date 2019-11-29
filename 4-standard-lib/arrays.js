@@ -368,7 +368,7 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-           
+            
             ////////////////////////////////////////////////////////////////////
 
             expect(allGreaterThan(3)).to.equal(false);
@@ -386,7 +386,9 @@ describe("arrays", function() {
 
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            function oneNumberIsBelowLimit(limit) {
+                return numbers.some((number) => number < limit);
+            }
             ////////////////////////////////////////////////////////////////////
 
             expect(oneNumberIsBelowLimit(5)).to.equal(true);
@@ -402,7 +404,7 @@ describe("arrays", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             expect(pickUserNames([])).to.eql([]);
@@ -470,7 +472,7 @@ describe("arrays", function() {
             ////////////////////////////////////////////////////////////////////
             // You will need to chain multiple array methods here.
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             expect(sumUpNumbersAboveLimit([1], 0)).to.equal(1);
@@ -514,7 +516,7 @@ describe("arrays", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+          
             ////////////////////////////////////////////////////////////////////
 
             const array1 = createArray({
@@ -561,7 +563,7 @@ describe("arrays", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+           
             ////////////////////////////////////////////////////////////////////
 
             const empty = arrayToString([]);
@@ -580,7 +582,7 @@ describe("arrays", function() {
             // You will need to call several different array methods here.
             // Don't worry, you've already learned them.
             // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
-
+            
             ////////////////////////////////////////////////////////////////////
 
             const a = arrayToReadableString(["a"]);
